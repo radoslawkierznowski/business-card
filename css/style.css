@@ -5,4 +5,65 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-body{background: #2C2141;}
+
+body {
+	align-items: center;
+	background: #2C2141;
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+	justify-content: center;
+	min-height: 100vh;
+	padding: 16px;
+}
+
+.card {
+	background: #F8F8F8;
+	border-radius: 16px;
+	max-width: 624px;
+	padding: 32px;
+	width: 100%;
+}
+
+.person {
+	align-items: flex-start;
+	display: flex;
+}
+
+.person__description {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 22px;
+}
+.person__description--last{margin-bottom:0;}
+
+.person__header {margin-bottom: 32px;}
+
+.person__link {
+	color: #E20613;
+	text-decoration: none;
+}
+
+.person__name {
+	font-size: 36px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.person__photo {
+	border-radius: 74px;
+	height: 148px;
+	margin-right: 32px;
+	width: 148px;
+}
+
+.person__position {
+	color: #545454;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.person__special {
+	color: #ED6D05;
+	font-weight: normal;
+}
