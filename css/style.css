@@ -34,9 +34,14 @@ body {
 	font-weight: normal;
 	line-height: 22px;
 }
-.person__description--last{margin-bottom:0;}
 
-.person__header {margin-bottom: 32px;}
+.person__description--last {
+	margin-bottom: 0;
+}
+
+.person__header {
+	margin-bottom: 32px;
+}
 
 .person__link {
 	color: #E20613;
@@ -51,9 +56,11 @@ body {
 
 .person__photo {
 	border-radius: 74px;
-	height: 148px;
+	height: 100%;
 	margin-right: 32px;
-	width: 148px;
+	max-height: 148px;
+	max-width: 148px;
+	width: 100%;
 }
 
 .person__position {
